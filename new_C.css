@@ -1,0 +1,50 @@
+body{
+		background-image: url(bg.jpg);
+	}
+
+form{
+	color:white;
+	font-size: 20px;
+	font-family: 'Kanit', sans-serif;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: pink;
+	text-align: center;
+	border: 3px solid rgba(255,182,193,0.7)
+}
+
+#heading{
+	background-color: rgba(0,255,0,0.1);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: pink 5px;
+}
+
+footer{
+	clear: both;
+	font-family: fantasy;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	border:solid black 3px;
+	text-shadow: 1px 1px 2px black;
+
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
